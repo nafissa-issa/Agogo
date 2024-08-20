@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    
+}
+
+.contener{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+.contien{
+    width: 100%;
+    border-bottom: 1px solid black; 
+}
+
+nav {
+    
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 70%;
+     margin: 0px auto;
+     
+     
+    
+  }
+
+.contenu{
+  
+    height:40vh;
+    width: 45%;
+    margin-top: 3%;
+    background-color: rgb(72, 208, 163);
+    
+   
+}
+.button{
+    border: none;
+    background-color: rgb(72, 208, 163) ;
+    color: white;
+}
+.button1{
+    margin-top: 10%;
+    height: 10%;
+    width: 29%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+#rebour{
+    color: white;
+    
+}
+.rebour{
+    font-size: 25px;
+    
+    margin-top: 20%;
+}
+#back{
+    color: white;
+}
+
+@media screen and (max-width: 1440px) {
+    .button {
+      
+        font-size: 12px;
+        
+    }
+}
+@media screen and (max-width: 1024px) {
+    .button {
+      
+        font-size: 8px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .button {
+      
+        font-size: 5px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .button {
+      
+        font-size: 2px;
+        
+    }
+    
+}
+@media screen and  (max-width:375px) {
+    .contenu{
+        width: 23rem;
+    }
+    .button{
+        font-size: 40%;
+    }
+    nav{
+    
+       
+        margin-bottom: 1%;
+        
+     
+   
+     
+    }
+    .button1{
+        width: 50%;
+    }
+    
+}
